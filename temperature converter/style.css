@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    background-color: rgba(247, 138, 74, 0.692);
+}
+
+.title {
+    margin: 0;
+    color: black;
+}
+
+.input {
+    width: 45vh;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 2px black;
+    background-color: transparent;
+    padding-left: 15px;
+    color: white;
+}
+
+select {
+    height: 30px;
+    width: 20vh;
+    padding-left: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    background-color: rgba(165, 42, 42, 0.616);
+}
+
+.option {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.Convert {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(223, 122, 7);
+}
+
+.Convert:hover {
+    opacity: 0.8;
+}
+
+.Convert:active {
+    background-color: rgb(235, 135, 3);
+}
+
+p {
+    font-weight: bold;
+}
+
+span {
+    padding: 0 10px;
+}
+
+.title-icon {
+    display: flex;
+}
